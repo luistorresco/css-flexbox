@@ -1,0 +1,36 @@
+body {background-color: azure;}
+
+.CajaPadre{
+    display: flex;
+    border: 1px solid;
+    
+    
+
+
+}
+
+.CajaPadre__diseno{
+    border: 1px solid;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+.CajaPadre__hijo1{
+    background-color: aliceblue;
+}
+
+.CajaPadre__hijo2{
+    background-color: rgb(3, 88, 163);
+}
+
+.CajaPadre__hijo3{
+    background-color: rgb(145, 158, 25);
+}
+
+.CajaPadre__hijo4{
+    background-color: rgb(173, 21, 29);
+}
