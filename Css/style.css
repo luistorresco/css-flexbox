@@ -1,18 +1,24 @@
+*{margin: o; padding: opx;}
 body {background-color: azure;}
 
 .CajaPadre{
+    margin: 30px;
+    height: 400px;
     display: flex;
     border: 1px solid;
-    
-    
-
-
+/* horizontal */
+/* justify-content: center; */
+/* vertical*/
+    align-items: stretch;
+/* resposib*/
+    flex-flow: row wrap;
 }
 
+h1 {text-align: center;}
 .CajaPadre__diseno{
     border: 1px solid;
     margin: 5px;
-    width: 150px;
+    /* width: 150px; */
     height: 150px;
     text-align: center;
     line-height: 150px;
